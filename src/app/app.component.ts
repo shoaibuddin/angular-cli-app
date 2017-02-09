@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
-import {HelloWorldComponent} from './hello-world/hello-world.component';
+
+import { AboutComponent } from './about/about.component';
+import { ServicesComponent } from './services/services.component';
+
 
 @Component({
   selector: 'app-root',
