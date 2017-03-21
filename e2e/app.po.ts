@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class EnigmaPage {
+export class AngularCliPage {
   navigateTo() {
     return browser.get('/');
   }

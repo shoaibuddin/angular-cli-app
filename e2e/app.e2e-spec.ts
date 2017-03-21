@@ -1,10 +1,10 @@
-import { EnigmaPage } from './app.po';
+import { AngularCliPage } from './app.po';
 
-describe('enigma App', function() {
-  let page: EnigmaPage;
+describe('angular-cli App', () => {
+  let page: AngularCliPage;
 
   beforeEach(() => {
-    page = new EnigmaPage();
+    page = new AngularCliPage();
   });
 
   it('should display message saying app works', () => {
